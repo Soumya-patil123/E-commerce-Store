@@ -89,3 +89,18 @@ production-hardened store: there's no email verification, no rate limiting
 on auth endpoints, and the session store is in-memory (resets if the server
 restarts). For production you'd want a persistent session store (e.g.
 `connect-sqlite3` or Redis), HTTPS, and environment-based secrets.
+
+##add images
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 🛍️ Products Page
+![Products Page](screenshots/products.png)
+
+### 🛒 Cart Page
+![Cart Page](screenshots/cart.png)
+
+### 📦 Orders Page
+![Orders Page](screenshots/orders.png)
