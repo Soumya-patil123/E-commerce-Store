@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fieldstone Goods — Well-made things for everyday use</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/index.html">
+        <span class="mark">⛏</span> Fieldstone Goods
+        <span class="tagline">Built to be used</span>
+      </a>
+      <nav class="main-nav" id="nav-account">
+        <a href="/login.html">Sign in</a>
+        <a href="/register.html">Register</a>
+      </nav>
+      <a class="cart-link" href="/cart.html">
+        Cart <span class="cart-count" id="cart-count">0</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Small batch · Made to last</div>
+        <h1>Everyday goods, made properly.</h1>
+        <p class="lede">
+          We stock a short list of things worth owning — jackets, mugs, boards, and tools
+          chosen for how they hold up, not how they photograph.
+        </p>
+      </div>
+      <div class="hero-panel">
+        <h3>How ordering works</h3>
+        <ul>
+          <li><span class="num">1</span> Browse the shelf and open anything that catches your eye.</li>
+          <li><span class="num">2</span> Add it to your cart and adjust quantities any time.</li>
+          <li><span class="num">3</span> Sign in, add a shipping address, and place the order.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="filter-bar">
+      <select id="category-filter">
+        <option value="">All categories</option>
+      </select>
+      <input type="search" id="search-input" placeholder="Search products…" />
+    </div>
+
+    <div class="product-grid" id="product-grid">
+      <!-- product cards injected here -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    Fieldstone Goods · a demo storefront built for learning purposes
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script src="/js/products.js"></script>
+</body>
+</html>
