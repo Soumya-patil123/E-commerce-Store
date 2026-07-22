@@ -34,6 +34,22 @@ This application allows users to browse products, manage a shopping cart, create
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Shopping Cart
+![Shopping Cart](screenshots/cart.png)
+
+### Checkout Page
+![Checkout Page](screenshots/checkout.png)
+
+
+
 ## 🛠️ Technologies Used
 
 ### Frontend
