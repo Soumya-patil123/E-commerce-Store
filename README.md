@@ -51,7 +51,6 @@ This application allows users to browse products, manage a shopping cart, create
 ### Orders Page
 ![Orders](screenshots/order.png)
 
-
 ## 🛠️ Technologies Used
 
 ### Frontend
